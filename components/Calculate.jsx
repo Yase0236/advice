@@ -107,6 +107,7 @@ export default function Calculate() {
                                 <option>2 hours</option>
                                 <option>3 hours</option>
                                 </select>
+                                <button type="submit">Calculate!</button>
                 </form>
     </section>
     </>
