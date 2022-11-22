@@ -22,10 +22,21 @@ function App() {
   return (
     <div className="App">
       <Header />
+<<<<<<< HEAD
       <Introduction />
       <Calculate media={media} />
       <Results />
       <Tips />
+=======
+
+      <section class="main">
+        <Introduction />
+        <Calculate />
+        <Results />
+        <Tips />
+      </section>
+
+>>>>>>> origin/master
       <Footer />
     </div>
   );
