@@ -10,85 +10,94 @@ export default function Calculate() {
       <form action="">
         <legend>Youtube</legend>
         <label htmlFor="youtube"></label>
-                <select name="youtube" id="youtube" />
+                <select name="youtube" id="youtube">
                 <option>10 minutes</option>
                 <option>20 minutes</option>
                 <option>30 minutes</option>
                 <option>1 hour</option>
                 <option>2 hours</option>
                 <option>3 hours</option>
+                </select>
         <legend>Instagram</legend>
         <label htmlFor="instagram"></label>
-                <select name="instagram" id="instagram" />
+                <select name="instagram" id="instagram">
                 <option>10 minutes</option>
                 <option>20 minutes</option>
                 <option>30 minutes</option>
                 <option>1 hour</option>
                 <option>2 hours</option>
                 <option>3 hours</option>
+                </select>
                 <legend>Instagram</legend>
         <label htmlFor="facebook"></label>
-                <select name="facebook" id="facebook" />
+                <select name="facebook" id="facebook">
                 <option>10 minutes</option>
                 <option>20 minutes</option>
                 <option>30 minutes</option>
                 <option>1 hour</option>
                 <option>2 hours</option>
                 <option>3 hours</option>
+                </select>
                 <legend>Snapchat</legend>
         <label htmlFor="snapchat"></label>
-                <select name="snapchat" id="snapchat" />
+                <select name="snapchat" id="snapchat">
                 <option>10 minutes</option>
                 <option>20 minutes</option>
                 <option>30 minutes</option>
                 <option>1 hour</option>
                 <option>2 hours</option>
                 <option>3 hours</option>
+                </select>
                 <legend>TikTok</legend>
         <label htmlFor="tiktok"></label>
-                <select name="tiktok" id="tiktok" />
+                <select name="tiktok" id="tiktok">
                 <option>10 minutes</option>
                 <option>20 minutes</option>
                 <option>30 minutes</option>
                 <option>1 hour</option>
                 <option>2 hours</option>
                 <option>3 hours</option>
+                </select>
                 <legend>LinkedIn</legend>
                 <label htmlFor="linkedin"></label>
-                        <select name="linkedin" id="linkedin" />
+                        <select name="linkedin" id="linkedin">
                         <option>10 minutes</option>
                         <option>20 minutes</option>
                         <option>30 minutes</option>
                         <option>1 hour</option>
                         <option>2 hours</option>
                         <option>3 hours</option>
+                        </select>
         <legend>Twitter</legend>
                         <label htmlFor="twitter"></label>
-                                <select name="twitter" id="twitter" />
+                                <select name="twitter" id="twitter">
                                 <option>10 minutes</option>
                                 <option>20 minutes</option>
                                 <option>30 minutes</option>
                                 <option>1 hour</option>
                                 <option>2 hours</option>
                                 <option>3 hours</option>
+                                </select>
                                 <legend>Pinterest</legend>
                         <label htmlFor="pinterest"></label>
-                                <select name="pinterest" id="pinterest" />
+                                <select name="pinterest" id="pinterest">
                                 <option>10 minutes</option>
                                 <option>20 minutes</option>
                                 <option>30 minutes</option>
                                 <option>1 hour</option>
                                 <option>2 hours</option>
                                 <option>3 hours</option>
+                                </select>
                                 <legend>Reddit</legend>
                         <label htmlFor="reddit"></label>
-                                <select name="reddit" id="reddit" />
+                                <select name="reddit" id="reddit">
                                 <option>10 minutes</option>
                                 <option>20 minutes</option>
                                 <option>30 minutes</option>
                                 <option>1 hour</option>
                                 <option>2 hours</option>
                                 <option>3 hours</option>
+                                </select>
                 </form>
     </section>
     </>
