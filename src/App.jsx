@@ -13,7 +13,7 @@ function App() {
       const url = "co2emission.json";
       const res = await fetch(url);
       const data = await res.json();
-      // console.log(data);
+      console.log(data);
       setMedia(data);
     }
     getData();
