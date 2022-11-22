@@ -11,6 +11,7 @@ export default function Calculate() {
         <legend>Youtube</legend>
         <label htmlFor="youtube"></label>
                 <select name="youtube" id="youtube">
+                <option>Select here</option>
                 <option>10 minutes</option>
                 <option>20 minutes</option>
                 <option>30 minutes</option>
@@ -21,6 +22,7 @@ export default function Calculate() {
         <legend>Instagram</legend>
         <label htmlFor="instagram"></label>
                 <select name="instagram" id="instagram">
+                <option>Select here</option>
                 <option>10 minutes</option>
                 <option>20 minutes</option>
                 <option>30 minutes</option>
@@ -31,6 +33,7 @@ export default function Calculate() {
                 <legend>Instagram</legend>
         <label htmlFor="facebook"></label>
                 <select name="facebook" id="facebook">
+                <option>Select here</option>
                 <option>10 minutes</option>
                 <option>20 minutes</option>
                 <option>30 minutes</option>
@@ -41,6 +44,7 @@ export default function Calculate() {
                 <legend>Snapchat</legend>
         <label htmlFor="snapchat"></label>
                 <select name="snapchat" id="snapchat">
+                <option>Select here</option>
                 <option>10 minutes</option>
                 <option>20 minutes</option>
                 <option>30 minutes</option>
@@ -51,6 +55,7 @@ export default function Calculate() {
                 <legend>TikTok</legend>
         <label htmlFor="tiktok"></label>
                 <select name="tiktok" id="tiktok">
+                <option>Select here</option>
                 <option>10 minutes</option>
                 <option>20 minutes</option>
                 <option>30 minutes</option>
@@ -61,6 +66,7 @@ export default function Calculate() {
                 <legend>LinkedIn</legend>
                 <label htmlFor="linkedin"></label>
                         <select name="linkedin" id="linkedin">
+                        <option>Select here</option>
                         <option>10 minutes</option>
                         <option>20 minutes</option>
                         <option>30 minutes</option>
@@ -71,6 +77,7 @@ export default function Calculate() {
         <legend>Twitter</legend>
                         <label htmlFor="twitter"></label>
                                 <select name="twitter" id="twitter">
+                                <option>Select here</option>
                                 <option>10 minutes</option>
                                 <option>20 minutes</option>
                                 <option>30 minutes</option>
@@ -81,6 +88,7 @@ export default function Calculate() {
                                 <legend>Pinterest</legend>
                         <label htmlFor="pinterest"></label>
                                 <select name="pinterest" id="pinterest">
+                                <option>Select here</option>
                                 <option>10 minutes</option>
                                 <option>20 minutes</option>
                                 <option>30 minutes</option>
@@ -91,6 +99,7 @@ export default function Calculate() {
                                 <legend>Reddit</legend>
                         <label htmlFor="reddit"></label>
                                 <select name="reddit" id="reddit">
+                                <option>Select here</option>
                                 <option>10 minutes</option>
                                 <option>20 minutes</option>
                                 <option>30 minutes</option>
