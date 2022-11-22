@@ -79,8 +79,7 @@ a {
 
 /*************footer styling*********************/
 .footer_styling {
-  /* not the right color */
-  background-color: #0a7feb;
+  background-color: var(--main-color);
   padding: 3rem;
   color: white;
   text-align: center;
