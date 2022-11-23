@@ -125,9 +125,10 @@ select {
 /*************tips section styling*********************/
 .tips_section {
   background-image: url(../src/assets/card_background.webp);
-  background-size: cover;
+  background-size: contain;
   background-color: rgba(159, 159, 159, 0.5);
   background-position: center;
+  background-repeat: no-repeat;
   /* color: var(--font-color1); */
   padding: 3rem;
   margin: 4rem;
