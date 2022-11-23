@@ -3,7 +3,9 @@ import React from "react";
 export default function Header() {
   return (
     <div className="header_styling">
-      <h2>Nice React(ion)</h2>
+      <a href="index.html">
+        <img src="../src/assets/logo.webp" className="logo" alt="logo" />
+      </a>
       <nav>
         <ul>
           <li>
