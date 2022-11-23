@@ -33,15 +33,18 @@ export default function Calculate(props) {
     // console.log(addForm.current.elements.label);
 
     console.log(`Your ${totalTime} minutes use of Social Media
-     is emitting ${totalCo2.toFixed(2)} grams of CO2. That equals`);
-    return totalTime, totalCo2;
+     is emitting ${totalCo2.toFixed(2)} grams of CO2`);
+
+    function showResult(props) {
+      const result = document.querySelector(".result_text");
+      console.log(result);
+      result.textContent = `Your ${totalTime} minutes use of Social Media
+        is emitting ${totalCo2.toFixed(2)} grams of CO2`;
+    }
+
+    showResult();
   }
-  // function showResult(props) {
-  //   console.log(props);
-  //   const result = document.querySelector(".result_text");
-  //   result.textContent = `Your ${totalTime} minutes use of Social Media
-  //   is emitting ${totalCo2.toFixed(2)} grams of CO2`;
-  // }
+
   // useEffect(() => {
   //   const selectTime = document.querySelector("fieldset");
   //   // console.log(selectTime.elements);
@@ -174,7 +177,9 @@ export default function Calculate(props) {
               <option>2 hours</option>
               <option>3 hours</option>
             </select>
-            <button type="submit">Calculate!</button>
+            <button type="submit" onClick={showResult}>
+              Calculate!
+            </button>
           </fieldset>
         </form>
       </section>
