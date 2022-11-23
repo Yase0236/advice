@@ -4,18 +4,13 @@
 :root {
   --font-secondary: "Roboto", sans-serif;
   --font-primary: "Bebas Neue", sans-serif;
-  /* font-weight: 400; */
 
-  color-scheme: light dark;
   --main-color: #0760b3;
-  --light-color: rgb(214, 207, 207);
-  --font-color0: black;
+  --light-color: rgb(240, 240, 240);
+  --button-color: #80cc29;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --font-color0: black;
+  --font-color1: white;
 }
 html {
   scroll-behavior: smooth;
@@ -26,18 +21,33 @@ body {
   margin: 0;
 }
 .main {
-  /* margin: 2rem; */
-  padding: 2rem;
+  --padding: 1.5rem;
+
+  --max-width: 70vw;
+  width: min((var(--max-width)), 100% - (var(--padding) * 2));
+  margin-inline: auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.logo {
+  width: 50%;
+  height: 100%;
 }
 h1 {
   font-size: 3rem;
   font-family: var(--font-primary);
   color: var(--font-color0);
+  font-weight: 600;
+  text-align: center;
 }
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-family: var(--font-primary);
   color: var(--font-color0);
+  letter-spacing: 0.03rem;
+  font-weight: 400;
 }
 h3 {
   font-size: 1.2rem;
@@ -45,7 +55,8 @@ h3 {
   font-family: var(--font-primary);
 }
 h4,
-p {
+p,
+label {
   font-size: 1rem;
   font-family: var(--font-secondary);
   color: var(--font-color0);
@@ -77,6 +88,9 @@ a {
     flex-direction: column;
   }
 }
+nav {
+  align-self: center;
+}
 li {
   list-style: none;
 }
@@ -91,15 +105,55 @@ a {
   color: white;
   text-decoration: none;
 }
-
+/*************calculate section styling*********************/
+.form_fields {
+  text-align: center;
+}
+form {
+  padding: 2rem 3rem 2rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+button {
+  background-color: var(--main-color);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  font-family: var(--font-secondary);
+  font-weight: 800;
+}
+button:hover {
+  background-color: var(--button-color);
+}
+select {
+  padding: 0.5rem;
+}
+/*************tips section styling*********************/
+.tips_section {
+  background-image: url(../src/assets/card_background.webp);
+  background-size: contain;
+  background-color: rgba(159, 159, 159, 0.5);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* color: var(--font-color1); */
+  padding: 3rem;
+  margin: 4rem;
+  border-radius: 2rem;
+}
+.tip_headings {
+  font-size: 1.8rem;
+  letter-spacing: 0.07rem;
+  text-align: center;
+  color: var(--font-color1);
+}
 /*************footer styling*********************/
 .footer_styling {
   background-color: var(--main-color);
+  letter-spacing: 0.1rem;
   padding: 3rem;
   text-align: center;
 }
 .footer_font {
-  color: var(--light-color);
+  color: var(--font-color1);
 }
 .footer_elements {
   margin: 2rem;
