@@ -25,7 +25,7 @@ function App() {
 
       <section className="main">
         <Introduction />
-        <Calculate />
+        <Calculate media={media} />
         <Results />
         <Tips />
       </section>

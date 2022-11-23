@@ -3,72 +3,72 @@
     "media": "youtube",
     "minute": "0.46",
     "time10": "4.6",
-    "beef10": "864.8",
-    "pork10": "92",
-    "potatoes10": "3.22"
+    "beef": "86.48",
+    "pork": "0.92",
+    "potatoes": "0.322"
   },
   {
     "media": "linkedin",
     "minute": "0.71",
     "time10": "7.1",
-    "beef10": "1334.8",
-    "pork10": "142",
-    "potatoes10": "4.97"
+    "beef": "133.48",
+    "pork": "14.2",
+    "potatoes": "0.497"
   },
   {
     "media": "facebook",
     "minute": "0.79",
     "time10": "7.9",
-    "beef10": "1485.2",
-    "pork10": "158",
-    "potatoes10": "5.53"
+    "beef": "148.52",
+    "pork": "15.8",
+    "potatoes": "0.553"
   },
   {
     "media": "instagram",
     "minute": "1.05",
     "time10": "10.5",
-    "beef10": "1974",
-    "pork10": "210",
-    "potatoes10": "7.35"
+    "beef": "197.4",
+    "pork": "21.0",
+    "potatoes": "0.735"
   },
   {
     "media": "tiktok",
     "minute": "2.63",
     "time10": "26.3",
-    "beef10": "4944.4",
-    "pork10": "526",
-    "potatoes10": "18.41"
+    "beef": "494.44",
+    "pork": "52.6",
+    "potatoes": "1.841"
   },
   {
     "media": "snapchat",
     "minute": "0.87",
     "time10": "8.7",
-    "beef10": "1635.6",
-    "pork10": "174",
-    "potatoes10": "6.09"
+    "beef": "163.56",
+    "pork": "17.4",
+    "potatoes": "0.609"
   },
   {
     "media": "twitter",
     "minute": "0.6",
     "time10": "6",
-    "beef10": "1128",
-    "pork10": "120",
-    "potatoes10": "4.2"
+    "beef": "112.8",
+    "pork": "12.0",
+    "potatoes": "0.42"
   },
   {
     "media": "pinterest",
     "minute": "1.30",
     "time10": "13",
-    "beef10": "2444",
-    "pork10": "260",
-    "potatoes10": "17.36"
+    "beef": "244.4",
+    "pork": "26.0",
+    "potatoes": "1.736"
   },
   {
     "media": "reddit",
     "minute": "2.48",
     "time10": "24.8",
-    "beef10": "4662.4",
-    "pork10": "496",
-    "potatoes10": "3.22"
+    "beef": "466.24",
+    "pork": "49.6",
+    "potatoes": "0.322"
   }
 ]

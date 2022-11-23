@@ -1,8 +1,10 @@
 import React from "react";
 import { useEffect, useRef } from "react";
 import Results from "./Results";
+import App from "../src/App";
 export default function Calculate(props) {
   const addForm = useRef();
+  console.log(props);
   function handler(e) {
     e.preventDefault();
     const youtubeTime = Number(addForm.current.elements.youtube.value);
@@ -29,14 +31,17 @@ export default function Calculate(props) {
     const totalCo2 = youtubeCo2 + instagramCo2 + facebookCo2 + snapchatCo2 + tiktokCo2 + linkedinCo2 + twitterCo2 + pinterestCo2 + redditCo2;
     console.log(totalCo2);
     // console.log(addForm.current.elements.label);
+
     console.log(`Your ${totalTime} minutes use of Social Media
-     is emitting ${totalCo2.toFixed(2)} grams of CO2`);
+     is emitting ${totalCo2.toFixed(2)} grams of CO2. That equals`);
+    return totalTime, totalCo2;
   }
-  function showResult(props) {
-    const result = document.querySelector(".result_text");
-    result.textContent = `Your ${totalTime} minutes use of Social Media
-    is emitting ${totalCo2.toFixed(2)} grams of CO2`;
-  }
+  // function showResult(props) {
+  //   console.log(props);
+  //   const result = document.querySelector(".result_text");
+  //   result.textContent = `Your ${totalTime} minutes use of Social Media
+  //   is emitting ${totalCo2.toFixed(2)} grams of CO2`;
+  // }
   // useEffect(() => {
   //   const selectTime = document.querySelector("fieldset");
   //   // console.log(selectTime.elements);
@@ -169,9 +174,7 @@ export default function Calculate(props) {
               <option>2 hours</option>
               <option>3 hours</option>
             </select>
-            <button type="submit" onClick={showResult}>
-              Calculate!
-            </button>
+            <button type="submit">Calculate!</button>
           </fieldset>
         </form>
       </section>
