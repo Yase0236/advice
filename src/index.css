@@ -100,3 +100,6 @@ a {
   margin: 2rem;
   line-height: 3rem;
 }
+.result_hidden {
+  visibility: hidden;
+}
