@@ -1,6 +1,8 @@
 import React from "react";
 import { useEffect, useRef } from "react";
 import Results from "./Results";
+import App from "../src/App";
+
 export default function Calculate(props) {
   const addForm = useRef();
   function handler(e) {
@@ -31,12 +33,17 @@ export default function Calculate(props) {
     // console.log(addForm.current.elements.label);
     console.log(`Your ${totalTime} minutes use of Social Media
      is emitting ${totalCo2.toFixed(2)} grams of CO2`);
+
+     function showResult(props) {
+        const result = document.querySelector(".result_text");
+        console.log(result);
+        result.textContent = `Your ${totalTime} minutes use of Social Media
+        is emitting ${totalCo2.toFixed(2)} grams of CO2`;
+      }
+
+      showResult();
   }
-  function showResult(props) {
-    const result = document.querySelector(".result_text");
-    result.textContent = `Your ${totalTime} minutes use of Social Media
-    is emitting ${totalCo2.toFixed(2)} grams of CO2`;
-  }
+  
   // useEffect(() => {
   //   const selectTime = document.querySelector("fieldset");
   //   // console.log(selectTime.elements);
@@ -170,8 +177,7 @@ export default function Calculate(props) {
               <option>3 hours</option>
             </select>
             <button type="submit" onClick={showResult}>
-              Calculate!
-            </button>
+              Calculate!</button>
           </fieldset>
         </form>
       </section>

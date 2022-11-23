@@ -55,6 +55,11 @@ a {
   font-family: var(--font-primary);
   letter-spacing: 0.1rem;
 }
+/***************** result section *************/
+/* .result_hidden {
+  visibility: hidden;
+} */
+
 /***************header styling****************/
 .header_styling {
   background-color: var(--main-color);
@@ -99,7 +104,4 @@ a {
 .footer_elements {
   margin: 2rem;
   line-height: 3rem;
-}
-.result_hidden {
-  visibility: hidden;
 }
