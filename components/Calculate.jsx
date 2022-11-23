@@ -35,14 +35,14 @@ export default function Calculate(props) {
     console.log(`Your ${totalTime} minutes use of Social Media
      is emitting ${totalCo2.toFixed(2)} grams of CO2`);
 
-    function showResult(props) {
-      const result = document.querySelector(".result_text");
-      console.log(result);
-      result.textContent = `Your ${totalTime} minutes use of Social Media
-        is emitting ${totalCo2.toFixed(2)} grams of CO2`;
-    }
+    // function showResult(props) {
+    //   const result = document.querySelector(".result_text");
+    //   console.log(result);
+    //   result.textContent = `Your ${totalTime} minutes use of Social Media
+    //     is emitting ${totalCo2.toFixed(2)} grams of CO2`;
+    // }
 
-    showResult();
+    // showResult();
   }
 
   // useEffect(() => {
@@ -177,9 +177,7 @@ export default function Calculate(props) {
               <option>2 hours</option>
               <option>3 hours</option>
             </select>
-            <button type="submit" onClick={showResult}>
-              Calculate!
-            </button>
+            <button type="submit">Calculate!</button>
           </fieldset>
         </form>
       </section>
