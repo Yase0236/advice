@@ -5,7 +5,9 @@ export default function Results(props) {
   return (
     <>
       <section>
-        <h2 className="result_text">{props.result}</h2>
+        <h2 style={{}} className="result_text">
+          {props.result}
+        </h2>
       </section>
     </>
   );
