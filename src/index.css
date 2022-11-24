@@ -146,7 +146,7 @@ a {
 
 /*************calculate section styling*********************/
 fieldset {
-  background-color: #1e362880;
+  background-color: rgba(30, 54, 40, 0.5);
 }
 
 legend {
@@ -165,14 +165,12 @@ label {
 .submitButton {
   background-color: var(--main-color);
   padding: 1rem;
-
   border-radius: 1rem;
   border: 0;
   font-family: var(--font-primary);
   letter-spacing: 0.1rem;
-
-  font-size: 3rem;
-  box-shadow: var(--font-color1) 2px 2px 7px;
+  font-size: 2rem;
+  box-shadow: rgba(30, 54, 40, 0.5) 5px 5px 7px;
 }
 .calculateButton {
   text-align: center;
@@ -196,6 +194,8 @@ select {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-right: 5rem;
+  box-shadow: 1px 1px 10px black;
 }
 
 /*************tips section styling*********************/
