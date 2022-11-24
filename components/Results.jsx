@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Tips from "./Tips";
 export default function Results(props) {
   const [tips, setTips] = useState(false);
+  // setTips(`i'm here`);
 
   return (
     <>

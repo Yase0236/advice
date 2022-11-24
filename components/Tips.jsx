@@ -1,9 +1,10 @@
 import React from "react";
 
 export default function Tips(props) {
-  console.log(props.tips);
+  console.log(props);
   return (
     <>
+      <p>{props.tips}</p>
       <section className="tips_section">
         <div className="tip">
           <h3 className="tip_headings">General tips for reducing your carbon footprint: </h3>
@@ -36,7 +37,6 @@ export default function Tips(props) {
             <span>&#9733;</span>Doing these simple steps, can still be an effective way of making sure everyone else are aware of their CO2 emission as well.
           </p>
         </div>
-
         <div className="tip">
           <h3 className="tip_headings">General tips for reducing your digital carbon footprint:</h3>
           <p>
