@@ -92,105 +92,104 @@ export default function Calculate(props) {
         <form action="" ref={addForm} onSubmit={handler}>
           <fieldset>
             <legend>Social Media</legend>
-            {/* <legend>Youtube</legend> */}
+          
             <label htmlFor="youtube">Youtube</label>
             <select name="youtube" id="youtube">
               <option value={0}>Select here</option>
               <option value={10}>10 minutes</option>
-              <option>20 minutes</option>
-              <option>30 minutes</option>
-              <option>1 hour</option>
-              <option>2 hours</option>
-              <option>3 hours</option>
+              <option value={20}>20 minutes</option>
+              <option value={30}>30 minutes</option>
+              <option value={60}>1 hour</option>
+              <option value={120}>2 hours</option>
+              <option value={180}>3 hours</option>
             </select>
 
-            {/* <legend>Instagram</legend> */}
             <label htmlFor="instagram">Instagram</label>
             <select name="instagram" id="instagram">
               <option value={0}>Select here</option>
               <option value={10}>10 minutes</option>
-              <option>20 minutes</option>
-              <option>30 minutes</option>
-              <option>1 hour</option>
-              <option>2 hours</option>
-              <option>3 hours</option>
+              <option value={20}>20 minutes</option>
+              <option value={30}>30 minutes</option>
+              <option value={60}>1 hour</option>
+              <option value={120}>2 hours</option>
+              <option value={180}>3 hours</option>
             </select>
-            {/* <legend>Facebook</legend> */}
+            
             <label htmlFor="facebook">Facebook</label>
             <select name="facebook" id="facebook">
               <option value={0}>Select here</option>
               <option value={10}>10 minutes</option>
-              <option>20 minutes</option>
-              <option>30 minutes</option>
-              <option>1 hour</option>
-              <option>2 hours</option>
-              <option>3 hours</option>
+              <option value={20}>20 minutes</option>
+              <option value={30}>30 minutes</option>
+              <option value={60}>1 hour</option>
+              <option value={120}>2 hours</option>
+              <option value={180}>3 hours</option>
             </select>
-            {/* <legend>Snapchat</legend> */}
+            
             <label htmlFor="snapchat">Snapchat</label>
             <select name="snapchat" id="snapchat">
               <option value={0}>Select here</option>
               <option value={10}>10 minutes</option>
-              <option>20 minutes</option>
-              <option>30 minutes</option>
-              <option>1 hour</option>
-              <option>2 hours</option>
-              <option>3 hours</option>
+              <option value={20}>20 minutes</option>
+              <option value={30}>30 minutes</option>
+              <option value={60}>1 hour</option>
+              <option value={120}>2 hours</option>
+              <option value={180}>3 hours</option>
             </select>
-            {/* <legend>TikTok</legend> */}
+            
             <label htmlFor="tiktok">Tiktok</label>
             <select name="tiktok" id="tiktok">
               <option value={0}>Select here</option>
               <option value={10}>10 minutes</option>
-              <option>20 minutes</option>
-              <option>30 minutes</option>
-              <option>1 hour</option>
-              <option>2 hours</option>
-              <option>3 hours</option>
+              <option value={20}>20 minutes</option>
+              <option value={30}>30 minutes</option>
+              <option value={60}>1 hour</option>
+              <option value={120}>2 hours</option>
+              <option value={180}>3 hours</option>
             </select>
-            {/* <legend>LinkedIn</legend> */}
+            
             <label htmlFor="linkedin">LinkedIn</label>
             <select name="linkedin" id="linkedin">
               <option value={0}>Select here</option>
               <option value={10}>10 minutes</option>
-              <option>20 minutes</option>
-              <option>30 minutes</option>
-              <option>1 hour</option>
-              <option>2 hours</option>
-              <option>3 hours</option>
+              <option value={20}>20 minutes</option>
+              <option value={30}>30 minutes</option>
+              <option value={60}>1 hour</option>
+              <option value={120}>2 hours</option>
+              <option value={180}>3 hours</option>
             </select>
-            {/* <legend>Twitter</legend> */}
+            
             <label htmlFor="twitter">Twitter</label>
             <select name="twitter" id="twitter">
               <option value={0}>Select here</option>
               <option value={10}>10 minutes</option>
-              <option>20 minutes</option>
-              <option>30 minutes</option>
-              <option>1 hour</option>
-              <option>2 hours</option>
-              <option>3 hours</option>
+              <option value={20}>20 minutes</option>
+              <option value={30}>30 minutes</option>
+              <option value={60}>1 hour</option>
+              <option value={120}>2 hours</option>
+              <option value={180}>3 hours</option>
             </select>
-            {/* <legend>Pinterest</legend> */}
+            
             <label htmlFor="pinterest">Pinterest</label>
             <select name="pinterest" id="pinterest">
               <option value={0}>Select here</option>
               <option value={10}>10 minutes</option>
-              <option>20 minutes</option>
-              <option>30 minutes</option>
-              <option>1 hour</option>
-              <option>2 hours</option>
-              <option>3 hours</option>
+              <option value={20}>20 minutes</option>
+              <option value={30}>30 minutes</option>
+              <option value={60}>1 hour</option>
+              <option value={120}>2 hours</option>
+              <option value={180}>3 hours</option>
             </select>
-            {/* <legend>Reddit</legend> */}
+           
             <label htmlFor="reddit">Reddit</label>
             <select name="reddit" id="reddit">
               <option value={0}>Select here</option>
               <option value={10}>10 minutes</option>
-              <option>20 minutes</option>
-              <option>30 minutes</option>
-              <option>1 hour</option>
-              <option>2 hours</option>
-              <option>3 hours</option>
+              <option value={20}>20 minutes</option>
+              <option value={30}>30 minutes</option>
+              <option value={60}>1 hour</option>
+              <option value={120}>2 hours</option>
+              <option value={180}>3 hours</option>
             </select>
             <button type="submit">Calculate!</button>
           </fieldset>
