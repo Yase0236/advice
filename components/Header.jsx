@@ -3,9 +3,8 @@ import React from "react";
 export default function Header() {
   return (
     <div className="header_styling">
-      <a href="index.html">
-        <img src="../src/assets/logo.webp" className="logo" alt="logo" />
-      </a>
+      <img src="../src/assets/logo.webp" className="logo" alt="logo" />
+
       <nav>
         <ul>
           <li>
