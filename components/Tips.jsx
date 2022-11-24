@@ -1,10 +1,10 @@
 import React from "react";
 
 export default function Tips(props) {
-  console.log(props);
+  const tipsText = "I'm here";
   return (
     <>
-      <p>{props.tips}</p>
+      {/* <p>{props.tips}</p> */}
       <section className="tips_section">
         <div className="tip">
           <h3 className="tip_headings">General tips for reducing your carbon footprint: </h3>

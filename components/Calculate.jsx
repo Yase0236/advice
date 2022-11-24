@@ -1,10 +1,11 @@
 import React from "react";
 import { useEffect, useRef, useState } from "react";
 import Results from "./Results";
-
+import Tips from "./Tips";
 export default function Calculate(props) {
   const addForm = useRef();
   const [result, setResult] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
   function handler(e) {
     e.preventDefault();
     // youtube
@@ -82,6 +83,7 @@ export default function Calculate(props) {
 
     setResult(`Here are your Results: Your ${totalTime} minutes use of Social Media
       is emitting ${totalCo2.toFixed(2)} grams of CO2. That is equal to ${totalBeef.toFixed(2)} grams of beef or ${totalPork.toFixed(2)} grams of pork or ${totalPotatoes.toFixed(2)} grams of potatoes. `);
+    setSubmitted(true);
   }
 
   return (
@@ -191,10 +193,13 @@ export default function Calculate(props) {
               <option value={120}>2 hours</option>
               <option value={180}>3 hours</option>
             </select>
-            <button type="submit">Calculate!</button>
+            <button className="submitButton" type="submit">
+              Calculate!
+            </button>
           </fieldset>
         </form>
         <Results result={result} />
+        {submitted && <Tips />}
       </section>
     </>
   );

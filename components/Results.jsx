@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import Tips from "./Tips";
 export default function Results(props) {
-  const [tips, setTips] = useState(false);
   // setTips(`i'm here`);
 
   return (
@@ -9,7 +7,6 @@ export default function Results(props) {
       <section>
         <h2 className="result_text">{props.result}</h2>
       </section>
-      <Tips tips={tips} />
     </>
   );
 }
