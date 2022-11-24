@@ -1,6 +1,7 @@
 import React from "react";
 
-export default function Tips() {
+export default function Tips(props) {
+  console.log(props.tips);
   return (
     <>
       <section className="tips_section">
