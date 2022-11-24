@@ -89,7 +89,11 @@ export default function Calculate(props) {
   return (
     <>
       <h3>Calculate your CO2 emission from your phone use here:</h3>
-      <p>Choose the social media you want to check and choose a time slot in each category. This calculator only applies to cell phones. In doubt about your used screen time? Check your phone’s settings to get the exact time spent on each app.</p>
+      <p>
+        Choose the social media you want to check and choose a time slot in each category. This calculator only applies to cell phones, and you decide for yourself whether you want to calculate your weekly or daily use.
+        <br />
+        Don't know your your screen time use? Check your phone’s settings to get the exact time spent on each app.
+      </p>
       <section className="form_fields">
         <form action="" ref={addForm} onSubmit={handler}>
           <fieldset className="form_styling">
