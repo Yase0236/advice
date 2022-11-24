@@ -13,7 +13,7 @@ function App() {
       const url = "co2emission.json";
       const res = await fetch(url);
       const data = await res.json();
-      // console.log(data);
+      // console.log(data.youtube.beef);
       setMedia(data);
     }
     getData();
@@ -26,8 +26,6 @@ function App() {
       <section className="main">
         <Introduction />
         <Calculate media={media} />
-        <Results />
-        <Tips />
       </section>
 
       <Footer />

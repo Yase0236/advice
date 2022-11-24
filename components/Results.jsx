@@ -1,13 +1,14 @@
 import React from "react";
-import Calculate from "./Calculate";
+import Tips from "./Tips";
 export default function Results(props) {
+  // console.log(props);
+
   return (
     <>
-      <section className="result_hidden">
-        <h2>Here are your results</h2>
-
-        <p className="result_text">Hello</p>
+      <section>
+        <h2 className="result_text">{props.result}</h2>
       </section>
+      <Tips />
     </>
   );
 }
