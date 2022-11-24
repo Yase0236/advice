@@ -193,10 +193,12 @@ export default function Calculate(props) {
               <option value={120}>2 hours</option>
               <option value={180}>3 hours</option>
             </select>
+          </fieldset>
+          <section className="calculateButton">
             <button className="submitButton" type="submit">
               Calculate!
             </button>
-          </fieldset>
+          </section>
         </form>
         <Results result={result} />
         {submitted && <Tips />}
