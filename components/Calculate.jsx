@@ -90,9 +90,9 @@ export default function Calculate(props) {
       <p>Choose the social media you want to check and choose a time slot in each category. This calculator only applies to cell phones. In doubt about your used screen time? Check your phone’s settings to get the exact time spent on each app.</p>
       <section className="form_fields">
         <form action="" ref={addForm} onSubmit={handler}>
-          <fieldset>
+          <fieldset className="form_styling">
             <legend>Social Media</legend>
-          
+
             <label htmlFor="youtube">Youtube</label>
             <select name="youtube" id="youtube">
               <option value={0}>Select here</option>
@@ -114,7 +114,7 @@ export default function Calculate(props) {
               <option value={120}>2 hours</option>
               <option value={180}>3 hours</option>
             </select>
-            
+
             <label htmlFor="facebook">Facebook</label>
             <select name="facebook" id="facebook">
               <option value={0}>Select here</option>
@@ -125,7 +125,7 @@ export default function Calculate(props) {
               <option value={120}>2 hours</option>
               <option value={180}>3 hours</option>
             </select>
-            
+
             <label htmlFor="snapchat">Snapchat</label>
             <select name="snapchat" id="snapchat">
               <option value={0}>Select here</option>
@@ -136,7 +136,7 @@ export default function Calculate(props) {
               <option value={120}>2 hours</option>
               <option value={180}>3 hours</option>
             </select>
-            
+
             <label htmlFor="tiktok">Tiktok</label>
             <select name="tiktok" id="tiktok">
               <option value={0}>Select here</option>
@@ -147,7 +147,7 @@ export default function Calculate(props) {
               <option value={120}>2 hours</option>
               <option value={180}>3 hours</option>
             </select>
-            
+
             <label htmlFor="linkedin">LinkedIn</label>
             <select name="linkedin" id="linkedin">
               <option value={0}>Select here</option>
@@ -158,7 +158,7 @@ export default function Calculate(props) {
               <option value={120}>2 hours</option>
               <option value={180}>3 hours</option>
             </select>
-            
+
             <label htmlFor="twitter">Twitter</label>
             <select name="twitter" id="twitter">
               <option value={0}>Select here</option>
@@ -169,7 +169,7 @@ export default function Calculate(props) {
               <option value={120}>2 hours</option>
               <option value={180}>3 hours</option>
             </select>
-            
+
             <label htmlFor="pinterest">Pinterest</label>
             <select name="pinterest" id="pinterest">
               <option value={0}>Select here</option>
@@ -180,7 +180,7 @@ export default function Calculate(props) {
               <option value={120}>2 hours</option>
               <option value={180}>3 hours</option>
             </select>
-           
+
             <label htmlFor="reddit">Reddit</label>
             <select name="reddit" id="reddit">
               <option value={0}>Select here</option>
