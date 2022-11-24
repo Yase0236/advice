@@ -1,9 +1,9 @@
 import React from "react";
-
+import Logo from "../src/assets/logo.webp";
 export default function Header() {
   return (
     <div className="header_styling">
-      <img src="../src/assets/logo.webp" className="logo" alt="logo" />
+      <img src={Logo} className="logo" alt="logo" />
 
       <nav>
         <ul>
